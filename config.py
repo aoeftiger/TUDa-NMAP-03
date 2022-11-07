@@ -19,6 +19,12 @@ def solve_leapfrog(theta, p, dt=dt):
 
 # more stuff:
 
+# for TUDa jupyter hub (https://tu-jupyter-i.ca.hrz.tu-darmstadt.de/)
+# --> install dependencies via 
+# $ pip install -r requirements_noversions.txt --prefix=`pwd`/requirements
+import sys
+sys.path.append('./requirements/lib/python3.8/site-packages/')
+
 import warnings
 warnings.filterwarnings('ignore')
 
