@@ -15,7 +15,7 @@ Run this notebook talk online, interactively on mybinder.org:
 or on the [local TU Darmstadt jupyterhub](https://tu-jupyter-i.ca.hrz.tu-darmstadt.de/) using your TU ID. Make sure you install all the required packages by running in a terminal or (preceded by an exclamation mark !) in an empty jupyter notebook cell:
 
 ``` bash
-pip install -r requirements_noversions.txt 
+pip install -r requirements_noversions.txt --prefix=`pwd`/requirements
 ``` 
 
 ## Run locally
