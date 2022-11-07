@@ -10,7 +10,7 @@ Find the rendered HTML slides [here](https://aoeftiger.github.io/TUDa-NMAP-03/).
 
 Run this notebook talk online, interactively on mybinder.org:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aoeftiger/TUDa-NMAP-03/v1.0)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aoeftiger/TUDa-NMAP-03/v1.02)
 
 or on the [local TU Darmstadt jupyterhub](https://tu-jupyter-i.ca.hrz.tu-darmstadt.de/) using your TU ID. Make sure you install all the required packages by running in a terminal or (preceded by an exclamation mark !) in an empty jupyter notebook cell:
 
