@@ -6,17 +6,44 @@ Third part of a jupyter notebook lecture series, held on 04.11.2022.
 
 Find the rendered HTML slides [here](https://aoeftiger.github.io/TUDa-NMAP-03/).
 
+---
+
 ## Run online
 
 Run this notebook talk online, interactively on mybinder.org:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aoeftiger/TUDa-NMAP-03/v1.02)
 
-or on the [local TU Darmstadt jupyterhub](https://tu-jupyter-i.ca.hrz.tu-darmstadt.de/) using your TU ID. Make sure you install all the required packages by running in a terminal or (preceded by an exclamation mark !) in an empty jupyter notebook cell:
+The `lecture.ipynb` notebook will work out-of-the-box.
+
+---
+
+## Run on TU Darmstadt jupyterhub
+
+If you have a TU ID, access the [local TU Darmstadt jupyterhub](https://tu-jupyter-i.ca.hrz.tu-darmstadt.de/) using your TU ID.
+
+A possible way to upload and run this lecture repository is the following:
+
+1. Open a terminal by clicking on the top right "New" -> "Terminal".
+
+2. A new tab opens with a terminal, click into the black area and enter (copy&pasting):
 
 ``` bash
+wget https://github.com/aoeftiger/TUDa-NMAP-03/archive/refs/heads/main.zip
+unzip main.zip
+cd TUDa-NMAP-03-main
+```
+
+3. You have downloaded, unzipped and entered the lecture repository. As a last step, install the dependencies:
+
+``` bash
+export TMPDIR=`pwd`
 pip install -r requirements_noversions.txt --prefix=`pwd`/requirements
 ``` 
+
+Close the terminal tab and open the `lecture.ipynb` notebook inside the repository directory on the jupyterhub main page.
+
+---
 
 ## Run locally
 
